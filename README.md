@@ -56,11 +56,15 @@ git --version.
 * disini kita akan coba buat satu file bernama README.md (text file)
 * File README.md berhasil dibuat. ``$ echo “#Latihan 1” >> README.md``
 
+![iqbal 3](https://user-images.githubusercontent.com/57259403/68079903-06ed3f00-fe24-11e9-93d4-807f528cc9ed.png)
+
+
 # Menambahkan File baru pada repository
 * Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
 * File README.md berhasil ditambahkan. ``$ git add README.md``
 
-![iqbal 4](https://user-images.githubusercontent.com/57259403/68079450-4021b100-fe1c-11e9-952f-1dff50081d5f.png)
+![iqbal 4](https://user-images.githubusercontent.com/57259403/68079918-4caa0780-fe24-11e9-859e-21026256a951.png)
+
 
 
 # Membuat repository server
@@ -68,3 +72,28 @@ git --version.
 * Anda harus membuat akun terlebih dahulu. 
 * Pada laman github, klik tombol start a project, atau 
 * Dari menu (icon +) klik New Repository
+
+![iqbal 66](https://user-images.githubusercontent.com/57259403/68079652-6f85ed00-fe1f-11e9-92e2-2d75609a31dc.png)
+
+# Menambahkan Remote Repository
+* Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user. 
+* Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url]
+
+# Push (Mengirim perubahan ke server)
+* Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
+* Perintah ini akan meminta memasukkan username dan password pada akun github.com $ git push -u origin master
+$ git remote add origin https://github.com/abuazzam/labpy1.git
+
+![iqbal 77](https://user-images.githubusercontent.com/57259403/68079713-7bbe7a00-fe20-11e9-8f3a-0a44eca9d92d.png)
+
+# Melihat hasilnya pada server repository
+* Buka laman github.com, arahkan pada repositorinya.             
+* Maka perubahan akan terlihat pada laman tersebut.            
+
+![iqbal 88](https://user-images.githubusercontent.com/57259403/68079759-52521e00-fe21-11e9-92f6-f775e3c6d73b.png)
+
+# Clone Repository
+* Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory). 
+* Untuk melakukan cloning, gunakan perintah git clone [url]
+
+![iqbal 99](https://user-images.githubusercontent.com/57259403/68079860-26379c80-fe23-11e9-8c92-14bc62630579.png)
