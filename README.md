@@ -65,6 +65,13 @@ git --version.
 
 ![iqbal 4](https://user-images.githubusercontent.com/57259403/68079918-4caa0780-fe24-11e9-859e-21026256a951.png)
 
+# Commit (Menyimpan perubahan ke database)
+* Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah ``git commit -m “komentar commit”``
+``$ git commit -m “File pertama saya”``
+* Perubahan berhasil disimpan.
+
+![iqbal 10](https://user-images.githubusercontent.com/57259403/68080016-db6b5400-fe25-11e9-9335-359341332edb.png)
+
 
 
 # Membuat repository server
@@ -74,6 +81,13 @@ git --version.
 * Dari menu (icon +) klik New Repository
 
 ![iqbal 66](https://user-images.githubusercontent.com/57259403/68079652-6f85ed00-fe1f-11e9-92e2-2d75609a31dc.png)
+
+# Membuat repository server
+* Isi nama repositorynya, misal: **labpy1.** 
+* lalu klik tombol **Create repository**
+
+![IQBAL 11](https://user-images.githubusercontent.com/57259403/68080139-8d575000-fe27-11e9-8587-04582bf60ae3.png)
+
 
 # Menambahkan Remote Repository
 * Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user. 
